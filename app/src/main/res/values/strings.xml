@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Catalogos</string>
+    <string name="produto">PRODUTO</string>
+    <string name="fabricante">FABRICANTE</string>
+    <string name="preco">PREÇO</string>
+    <string name="salvar">Salvar</string>
+    <string name="corrigir">CORRIGIR</string>
+</resources>

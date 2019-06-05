@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_main_atribulo_produto_width">100dp</dimen>
+    <dimen name="activity_main_produto_bt_width">150dp</dimen>
+    <dimen name="activity_main_produto_bt_textSize">25sp</dimen>
+</resources>
