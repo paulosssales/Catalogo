@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="@dimen/layout_padding_horizontal"
+    android:paddingVertical="@dimen/layout_padding_vertical"
+    tools:context="activies.rn.senai.br.activities.ListaProdutosActivity">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/activity_lista_produtos_bt_novo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:focusable="true"
+        android:clickable="true"
+        android:background="@color/colorPrimary"
+        android:src="@drawable/ic_action_cadastrar"/>
+
+    <ListView
+        android:id="@+id/activity_produto_lv_produtos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/activity_produto_bt_salvar"
+        android:layout_marginBottom="10dp" />
+
+</RelativeLayout>

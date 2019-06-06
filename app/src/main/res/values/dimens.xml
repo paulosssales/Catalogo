@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_padding_horizontal">20dp</dimen>
+    <dimen name="layout_padding_vertical">20dp</dimen>
+    <dimen name="activity_main_atribulo_produto_width">200dp</dimen>
+    <dimen name="activity_main_produto_bt_width">150dp</dimen>
+    <dimen name="activity_main_produto_bt_textSize">30sp</dimen>
+    <dimen name="textSize_tv_activity_produto">25sp</dimen>
+    <dimen name="tv_como_separador_height">1dp</dimen>
+    <dimen name="layout_width_et_preco">100dp</dimen>
+    <dimen name="textSize_et">30sp</dimen>
+</resources>

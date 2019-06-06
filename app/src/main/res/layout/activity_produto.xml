@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="@dimen/layout_padding_vertical"
+    android:paddingVertical="@dimen/layout_padding_horizontal"
+    android:orientation="vertical"
+    tools:context=".ProdutoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/activity_produto_tv_nome"
+            android:layout_width="@dimen/activity_main_atribulo_produto_width"
+            android:layout_height="wrap_content"
+            android:text="@string/nome_do_produto"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="@dimen/textSize_tv_activity_produto"
+            android:visibility="invisible"/>
+
+        <EditText
+            android:id="@+id/activity_produto_ed_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nome_do_produto"
+            android:inputType="text"
+            android:maxLength="50"
+            android:textSize="@dimen/textSize_et"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+    >
+
+        <TextView
+            android:id="@+id/activity_produto_tv_preco"
+            android:layout_width="@dimen/activity_main_atribulo_produto_width"
+            android:layout_height="wrap_content"
+            android:text="@string/preco"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="@dimen/textSize_tv_activity_produto"
+            android:visibility="invisible"
+            />
+
+        <EditText
+            android:id="@+id/activity_produto_ed_preco"
+            android:layout_width="@dimen/layout_width_et_preco"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textSize="@dimen/textSize_et"
+            android:hint="@string/preco"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/activity_produto_tv_fabricante"
+            android:layout_width="@dimen/activity_main_atribulo_produto_width"
+            android:layout_height="wrap_content"
+            android:text="@string/fabricante_do_produto"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="@dimen/textSize_tv_activity_produto"
+            android:visibility="invisible"/>
+
+        <EditText
+            android:id="@+id/activity_produto_ed_fabricante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textSize="@dimen/textSize_et"
+            android:hint="@string/fabricante_do_produto"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tv_como_separador_height"
+            android:background="@android:color/black"
+            />
+
+        <Button
+            android:id="@+id/activity_produto_bt_salvar"
+            android:layout_width="@dimen/activity_main_produto_bt_width"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:textSize="@dimen/activity_main_produto_bt_textSize"
+            android:textColor="@android:color/primary_text_dark"
+            android:background="@android:color/holo_orange_dark"
+            android:text="@string/salvar"/>
+
+        <Button
+            android:id="@+id/activity_produto_bt_corrigir"
+            android:layout_width="@dimen/activity_main_produto_bt_width"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/activity_main_produto_bt_textSize"
+            android:textColor="@android:color/black"
+            android:background="@android:color/holo_red_dark"
+            android:text="@string/corrigir"/>
+    </RelativeLayout>
+
+</LinearLayout>
