@@ -7,7 +7,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import activies.rn.senai.br.dao.ProdutoDAO;
-import activies.rn.senai.br.events.EventClickButtonProdutoActivity;
+import activies.rn.senai.br.events.EventClickButtonCadastroProdutoActivity;
 import activies.rn.senai.br.events.EventTextChanged;
 
 public class ProdutoActivity extends AppCompatActivity {
@@ -49,14 +49,14 @@ public class ProdutoActivity extends AppCompatActivity {
     }
 
     private void eventBtCorrigir(Button mBtCorrigir) {
-        mBtCorrigir.setOnClickListener(new EventClickButtonProdutoActivity(mBtCorrigir,
+        mBtCorrigir.setOnClickListener(new EventClickButtonCadastroProdutoActivity(mBtCorrigir,
                 mEdProdutoNome,
                 mEdProdutoPreco,
                 mEdProdutoFabricante, this));
     }
 
     private void eventBtSave(Button mBtSalvar) {
-        mBtSalvar.setOnClickListener(new EventClickButtonProdutoActivity(mBtSalvar,
+        mBtSalvar.setOnClickListener(new EventClickButtonCadastroProdutoActivity(mBtSalvar,
                 mEdProdutoNome,
                 mEdProdutoFabricante,
                 mEdProdutoPreco,

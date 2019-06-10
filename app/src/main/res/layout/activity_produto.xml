@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:paddingHorizontal="@dimen/layout_padding_vertical"
     android:paddingVertical="@dimen/layout_padding_horizontal"
+    android:background="@drawable/background_activity_red_blue"
     android:orientation="vertical"
     tools:context=".ProdutoActivity">
 
@@ -30,6 +31,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/nome_do_produto"
             android:inputType="text"
+            android:paddingLeft="@dimen/padding_left_text_editText"
+            android:background="@drawable/bt_background_white_radius"
             android:maxLength="50"
             android:textSize="@dimen/textSize_et"/>
 
@@ -56,6 +59,8 @@
             android:layout_width="@dimen/layout_width_et_preco"
             android:layout_height="wrap_content"
             android:inputType="numberDecimal"
+            android:paddingLeft="@dimen/padding_left_text_editText"
+            android:background="@drawable/bt_background_white_radius"
             android:textSize="@dimen/textSize_et"
             android:hint="@string/preco"/>
 
@@ -82,6 +87,8 @@
             android:layout_height="wrap_content"
             android:inputType="text"
             android:textSize="@dimen/textSize_et"
+            android:paddingLeft="@dimen/padding_left_text_editText"
+            android:background="@drawable/bt_background_white_radius"
             android:hint="@string/fabricante_do_produto"/>
 
     </LinearLayout>
@@ -103,7 +110,7 @@
             android:layout_alignParentLeft="true"
             android:textSize="@dimen/activity_main_produto_bt_textSize"
             android:textColor="@android:color/primary_text_dark"
-            android:background="@android:color/holo_orange_dark"
+            android:background="@drawable/background_button_save"
             android:text="@string/salvar"/>
 
         <Button
@@ -114,7 +121,7 @@
             android:layout_alignParentRight="true"
             android:textSize="@dimen/activity_main_produto_bt_textSize"
             android:textColor="@android:color/black"
-            android:background="@android:color/holo_red_dark"
+            android:background="@drawable/background_button_cancel"
             android:text="@string/corrigir"/>
     </RelativeLayout>
 

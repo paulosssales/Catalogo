@@ -12,7 +12,7 @@ import activies.rn.senai.br.activities.R;
 import activies.rn.senai.br.dao.ProdutoDAO;
 import activies.rn.senai.br.model.Produto;
 
-public class EventClickButtonProdutoActivity implements View.OnClickListener {
+public class EventClickButtonCadastroProdutoActivity implements View.OnClickListener {
     private Button button;
     private EditText nome;
     private EditText fabricante;
@@ -20,9 +20,9 @@ public class EventClickButtonProdutoActivity implements View.OnClickListener {
     private Activity activity;
     private ProdutoDAO dao = new ProdutoDAO();
 
-    public EventClickButtonProdutoActivity(Button button, EditText nome,
-                                           EditText fabricante, EditText preco,
-                                           ProdutoActivity produtoActivity) {
+    public EventClickButtonCadastroProdutoActivity(Button button, EditText nome,
+                                                   EditText fabricante, EditText preco,
+                                                   ProdutoActivity produtoActivity) {
         this.button = button;
         this.nome = nome;
         this.fabricante = fabricante;

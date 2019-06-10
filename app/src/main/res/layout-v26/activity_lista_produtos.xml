@@ -6,9 +6,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:paddingHorizontal="@dimen/layout_padding_horizontal"
     android:paddingVertical="@dimen/layout_padding_vertical"
+    android:background="@drawable/background_activity_red_blue"
     tools:context="activies.rn.senai.br.activities.ListaProdutosActivity">
 
     <android.support.design.widget.FloatingActionButton
+        android:id="@+id/activity_lista_produtos_bt_novo"
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:layout_alignParentRight="true"
